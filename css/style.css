@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Single+Day&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR&family=Sedan:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Sedan:ital@0;1&display=swap');
+
+body {
+    font-weight: 700;
+    /* 폰트 굵기 */
+    font-size: 20px;
+    /* 폰트 크기 */
+    background-color: #f2f2f2;
+
+}
+
+header {
+    font-family: "Nanum Pen Script", sans-serif;
+    font-size: 40px;
+    height: 100px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    height: 100%;
+    justify-content: center;
+}
+
+nav {
+    width: 960px;
+    background: white;
+    position: relative;
+    top: 50%;
+    left: 480px;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    /* 네비게이션 부분 */
+    font-size: 20px;
+    text-align: center;
+}
+
+
+main {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 20px;
+}
+
+
+
+footer {
+    display: block;
+    font-family: "Sedan";
+    text-align: left;
+    background-color: #1b1f23;
+    color: #d6e1ea;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+td {
+    position: relative;
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #2d2f43;
+}
+
+a:hover {
+    color: white;
+    background-color: pink;
+    transition-duration: 1s;
+}
+
+
